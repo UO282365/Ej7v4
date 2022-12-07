@@ -1,0 +1,372 @@
+<!DOCTYPE HTML>
+<!--Indica que el siguiente documento es HTML-->
+
+<html lang="es"><!--Indica que esta escrito en castellano--><head>
+    <!--Indica especificaciones del archivo-->
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+    <title>Ejercicio7</title>
+    <!--Metadato-->
+    <!--Metadatos de los documentos HTML5-->
+    <meta name="author" content="Adrián Vega">
+    <meta name="description" content="Versiones de bootstrap">
+    <meta name="keywords" content="bootstrap,framework,html,css,front-end,diseño,versiones,twitter">
+    <!--Añadimos ventana grafica-->
+    <!--Definición de la ventana gráfica-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Ejercicio7.js"></script>
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css">
+</head>
+
+<body>
+    <!--El contenido esta dentro del body-->
+    <h1>Bootstrap</h1>
+    <h2>Origen</h2>
+    <p>Bootstrap, originalmente llamado Blueprint de <a href="https://www.twitter.com">Twitter</a>, fue desarrollado por
+        Mark Otto y Jacob Thornton de Twitter,
+        como un marco de trabajo (framework) para fomentar la consistencia entre las herramientas internas.
+        Se renombró de Twitter Blueprint a Bootstrap y se lanzó como proyecto de código abierto el 19 de agosto de 2011.
+        Mark Otto, Jacob Thornton y un pequeño grupo de desarrolladores principales, así como una gran comunidad de
+        contribuyentes.</p>
+
+    <p>Mark Otto
+        es un diseñador viviendo y trabajando en San Francisco, trabajó como freelance durante la secund
+        aria y la universidad, antes de mudarse a California para trabajar en la empresa de diseño ZURB, en 2007.</p>
+    <p>Hasta la fecha Otto y Jacob han puesto más de 1000 horas en Bootstrap, sino es que más. Semanalmente trabajan de
+        tiempo com
+        pleto en sus respectivos empleos, pero suelen realizar esfuerzos durante algunas horas por la noche y más los
+        fines de semana, esto quiere decir que ellos no trabajan de tiempo completo en Bootstrap.</p>
+
+
+    <h2>Versiones</h2>
+
+    <p>Durante el transcurso de su historia bootstrap se ha ido actualizando para adaptarse a los nuevos requisitos
+        y tecnologias, que están siempre en constante cambio, y para mejorar su rendimiento y accesibilidad.
+        En la siguiente tabla se puede ver las versiones, su fecha de salida y el momento en el que se terminaron:
+    </p>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col" id="version">Version</th>
+                <th scope="col" id="fecha">Fecha de salida</th>
+                <th scope="col" id="novedad">Principal Novedad</th>
+            <th id="nuevaCol" scope="col">VersionFecha de salidaPrincipal Novedad</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row" id="Bootstrap2" headers="version">Bootstrap 2</th>
+                <td headers="Bootstrap2 fecha">31/1/2012</td>
+                <td headers="Bootstrap2 novedad">Diseño receptivo,soporte para glyphicons</td>
+            <td headers="nuevaCol">Bootstrap 231/1/2012Diseño receptivo,soporte para glyphicons</td></tr>
+            <tr>
+                <th scope="row" id="Bootstrap3" headers="version">Bootstrap 3</th>
+                <td headers="Bootstrap3 fecha">19/8/2013</td>
+                <td headers="Bootstrap3 novedad">Diseño plano y primer enfoque móvil</td>
+            <td headers="nuevaCol">Bootstrap 319/8/2013Diseño plano y primer enfoque móvil</td></tr>
+            <tr>
+                <th scope="row" id="Bootstrap4" headers="version">Bootstrap 4</th>
+                <td headers="Bootstrap4 fecha">18/1/2018</td>
+                <td headers="Bootstrap4 novedad">Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegación</td>
+            <td headers="nuevaCol">Bootstrap 418/1/2018Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegación</td></tr>
+            <tr>
+                <th scope="row" id="Bootstrap5" headers="version">Bootstrap 5</th>
+                <td headers="Bootstrap5 fecha">5/5/2021</td>
+                <td headers="Bootstrap5 novedad">Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                </td>
+            <td headers="nuevaCol">Bootstrap 55/5/2021Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                </td></tr>
+
+        <tr><td headers="version">VersionBootstrap 2Bootstrap 3Bootstrap 4Bootstrap 5</td><td headers="fecha">Fecha de salida31/1/201219/8/201318/1/20185/5/2021</td><td headers="novedad">Principal NovedadDiseño receptivo,soporte para glyphiconsDiseño plano y primer enfoque móvilImportante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónNuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                </td><td headers="nuevaCol">VersionFecha de salidaPrincipal NovedadBootstrap 231/1/2012Diseño receptivo,soporte para glyphiconsBootstrap 319/8/2013Diseño plano y primer enfoque móvilBootstrap 418/1/2018Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónBootstrap 55/5/2021Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                </td></tr></tbody>
+    </table>
+    <h2>H2 generado antes de un h3</h2><h3>UNIOVI</h3>
+    <form name="botones JQuery">
+        <input type="button" name="ocultar" value="ocultar h2" onclick="ej7.ocultarH2();">
+        <input type="button" name="mostrar" value="mostrar h2" onclick="ej7.mostrarH2();">
+        <input type="button" name="modificar" value="modificar universidad" onclick="ej7.modificarUni();">
+        <input type="button" name="modificar" value="modificar grado" onclick="ej7.modificarGrado();">
+        <input type="button" name="añadir" value="añadir elementos" onclick="ej7.añadirElementos();">
+        <input type="button" name="eliminar" value="eliminar h1" onclick="ej7.eliminarH1();">
+        <input type="button" name="arbol" value="mostrar arbol dom" onclick="ej7.mostrarArbolDom();">
+        <input type="button" name="sumar" value="sumar tabla" onclick="ej7.tablas();">
+
+    </form>
+
+
+
+<section><h2>Arbol dom</h2><p>Etiqueta padre: BODY elemento: H1 valor: Bootstrap</p><p>Etiqueta padre: BODY elemento: H2 valor: Origen</p><p>Etiqueta padre: BODY elemento: P valor: Bootstrap, originalmente llamado Blueprint de Twitter, fue desarrollado por
+        Mark Otto y Jacob Thornton de Twitter,
+        como un marco de trabajo (framework) para fomentar la consistencia entre las herramientas internas.
+        Se renombró de Twitter Blueprint a Bootstrap y se lanzó como proyecto de código abierto el 19 de agosto de 2011.
+        Mark Otto, Jacob Thornton y un pequeño grupo de desarrolladores principales, así como una gran comunidad de
+        contribuyentes.</p><p>Etiqueta padre: P elemento: A valor: Twitter</p><p>Etiqueta padre: BODY elemento: P valor: Mark Otto
+        es un diseñador viviendo y trabajando en San Francisco, trabajó como freelance durante la secund
+        aria y la universidad, antes de mudarse a California para trabajar en la empresa de diseño ZURB, en 2007.</p><p>Etiqueta padre: BODY elemento: P valor: Hasta la fecha Otto y Jacob han puesto más de 1000 horas en Bootstrap, sino es que más. Semanalmente trabajan de
+        tiempo com
+        pleto en sus respectivos empleos, pero suelen realizar esfuerzos durante algunas horas por la noche y más los
+        fines de semana, esto quiere decir que ellos no trabajan de tiempo completo en Bootstrap.</p><p>Etiqueta padre: BODY elemento: H2 valor: Versiones</p><p>Etiqueta padre: BODY elemento: P valor: Durante el transcurso de su historia bootstrap se ha ido actualizando para adaptarse a los nuevos requisitos
+        y tecnologias, que están siempre en constante cambio, y para mejorar su rendimiento y accesibilidad.
+        En la siguiente tabla se puede ver las versiones, su fecha de salida y el momento en el que se terminaron:
+    </p><p>Etiqueta padre: BODY elemento: TABLE valor: 
+        
+            
+                Version
+                Fecha de salida
+                Principal Novedad
+            VersionFecha de salidaPrincipal Novedad
+        
+        
+            
+                Bootstrap 2
+                31/1/2012
+                Diseño receptivo,soporte para glyphicons
+            Bootstrap 231/1/2012Diseño receptivo,soporte para glyphicons
+            
+                Bootstrap 3
+                19/8/2013
+                Diseño plano y primer enfoque móvil
+            Bootstrap 319/8/2013Diseño plano y primer enfoque móvil
+            
+                Bootstrap 4
+                18/1/2018
+                Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegación
+            Bootstrap 418/1/2018Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegación
+            
+                Bootstrap 5
+                5/5/2021
+                Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                
+            Bootstrap 55/5/2021Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                
+
+        VersionBootstrap 2Bootstrap 3Bootstrap 4Bootstrap 5Fecha de salida31/1/201219/8/201318/1/20185/5/2021Principal NovedadDiseño receptivo,soporte para glyphiconsDiseño plano y primer enfoque móvilImportante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónNuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                VersionFecha de salidaPrincipal NovedadBootstrap 231/1/2012Diseño receptivo,soporte para glyphiconsBootstrap 319/8/2013Diseño plano y primer enfoque móvilBootstrap 418/1/2018Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónBootstrap 55/5/2021Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                
+    </p><p>Etiqueta padre: TABLE elemento: THEAD valor: 
+            
+                Version
+                Fecha de salida
+                Principal Novedad
+            VersionFecha de salidaPrincipal Novedad
+        </p><p>Etiqueta padre: THEAD elemento: TR valor: 
+                Version
+                Fecha de salida
+                Principal Novedad
+            VersionFecha de salidaPrincipal Novedad</p><p>Etiqueta padre: TR elemento: TH valor: Version</p><p>Etiqueta padre: TR elemento: TH valor: Fecha de salida</p><p>Etiqueta padre: TR elemento: TH valor: Principal Novedad</p><p>Etiqueta padre: TR elemento: TH valor: VersionFecha de salidaPrincipal Novedad</p><p>Etiqueta padre: TABLE elemento: TBODY valor: 
+            
+                Bootstrap 2
+                31/1/2012
+                Diseño receptivo,soporte para glyphicons
+            Bootstrap 231/1/2012Diseño receptivo,soporte para glyphicons
+            
+                Bootstrap 3
+                19/8/2013
+                Diseño plano y primer enfoque móvil
+            Bootstrap 319/8/2013Diseño plano y primer enfoque móvil
+            
+                Bootstrap 4
+                18/1/2018
+                Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegación
+            Bootstrap 418/1/2018Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegación
+            
+                Bootstrap 5
+                5/5/2021
+                Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                
+            Bootstrap 55/5/2021Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                
+
+        VersionBootstrap 2Bootstrap 3Bootstrap 4Bootstrap 5Fecha de salida31/1/201219/8/201318/1/20185/5/2021Principal NovedadDiseño receptivo,soporte para glyphiconsDiseño plano y primer enfoque móvilImportante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónNuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                VersionFecha de salidaPrincipal NovedadBootstrap 231/1/2012Diseño receptivo,soporte para glyphiconsBootstrap 319/8/2013Diseño plano y primer enfoque móvilBootstrap 418/1/2018Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónBootstrap 55/5/2021Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                </p><p>Etiqueta padre: TBODY elemento: TR valor: 
+                Bootstrap 2
+                31/1/2012
+                Diseño receptivo,soporte para glyphicons
+            Bootstrap 231/1/2012Diseño receptivo,soporte para glyphicons</p><p>Etiqueta padre: TR elemento: TH valor: Bootstrap 2</p><p>Etiqueta padre: TR elemento: TD valor: 31/1/2012</p><p>Etiqueta padre: TR elemento: TD valor: Diseño receptivo,soporte para glyphicons</p><p>Etiqueta padre: TR elemento: TD valor: Bootstrap 231/1/2012Diseño receptivo,soporte para glyphicons</p><p>Etiqueta padre: TBODY elemento: TR valor: 
+                Bootstrap 3
+                19/8/2013
+                Diseño plano y primer enfoque móvil
+            Bootstrap 319/8/2013Diseño plano y primer enfoque móvil</p><p>Etiqueta padre: TR elemento: TH valor: Bootstrap 3</p><p>Etiqueta padre: TR elemento: TD valor: 19/8/2013</p><p>Etiqueta padre: TR elemento: TD valor: Diseño plano y primer enfoque móvil</p><p>Etiqueta padre: TR elemento: TD valor: Bootstrap 319/8/2013Diseño plano y primer enfoque móvil</p><p>Etiqueta padre: TBODY elemento: TR valor: 
+                Bootstrap 4
+                18/1/2018
+                Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegación
+            Bootstrap 418/1/2018Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegación</p><p>Etiqueta padre: TR elemento: TH valor: Bootstrap 4</p><p>Etiqueta padre: TR elemento: TD valor: 18/1/2018</p><p>Etiqueta padre: TR elemento: TD valor: Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegación</p><p>Etiqueta padre: TR elemento: TD valor: Bootstrap 418/1/2018Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegación</p><p>Etiqueta padre: TBODY elemento: TR valor: 
+                Bootstrap 5
+                5/5/2021
+                Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                
+            Bootstrap 55/5/2021Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                </p><p>Etiqueta padre: TR elemento: TH valor: Bootstrap 5</p><p>Etiqueta padre: TR elemento: TD valor: 5/5/2021</p><p>Etiqueta padre: TR elemento: TD valor: Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                </p><p>Etiqueta padre: TR elemento: TD valor: Bootstrap 55/5/2021Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                </p><p>Etiqueta padre: TBODY elemento: TR valor: VersionBootstrap 2Bootstrap 3Bootstrap 4Bootstrap 5Fecha de salida31/1/201219/8/201318/1/20185/5/2021Principal NovedadDiseño receptivo,soporte para glyphiconsDiseño plano y primer enfoque móvilImportante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónNuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                VersionFecha de salidaPrincipal NovedadBootstrap 231/1/2012Diseño receptivo,soporte para glyphiconsBootstrap 319/8/2013Diseño plano y primer enfoque móvilBootstrap 418/1/2018Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónBootstrap 55/5/2021Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                </p><p>Etiqueta padre: TR elemento: TD valor: VersionBootstrap 2Bootstrap 3Bootstrap 4Bootstrap 5</p><p>Etiqueta padre: TR elemento: TD valor: Fecha de salida31/1/201219/8/201318/1/20185/5/2021</p><p>Etiqueta padre: TR elemento: TD valor: Principal NovedadDiseño receptivo,soporte para glyphiconsDiseño plano y primer enfoque móvilImportante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónNuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                </p><p>Etiqueta padre: TR elemento: TD valor: VersionFecha de salidaPrincipal NovedadBootstrap 231/1/2012Diseño receptivo,soporte para glyphiconsBootstrap 319/8/2013Diseño plano y primer enfoque móvilBootstrap 418/1/2018Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónBootstrap 55/5/2021Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                </p><p>Etiqueta padre: BODY elemento: H2 valor: H2 generado antes de un h3</p><p>Etiqueta padre: BODY elemento: H3 valor: UNIOVI</p><p>Etiqueta padre: BODY elemento: FORM valor: 
+        
+        
+        
+        
+        
+        
+        
+        
+
+    </p><p>Etiqueta padre: FORM elemento: INPUT valor: </p><p>Etiqueta padre: FORM elemento: INPUT valor: </p><p>Etiqueta padre: FORM elemento: INPUT valor: </p><p>Etiqueta padre: FORM elemento: INPUT valor: </p><p>Etiqueta padre: FORM elemento: INPUT valor: </p><p>Etiqueta padre: FORM elemento: INPUT valor: </p><p>Etiqueta padre: FORM elemento: INPUT valor: </p><p>Etiqueta padre: FORM elemento: INPUT valor: </p><p>Etiqueta padre: BODY elemento: SECTION valor: Arbol domEtiqueta padre: BODY elemento: H1 valor: BootstrapEtiqueta padre: BODY elemento: H2 valor: OrigenEtiqueta padre: BODY elemento: P valor: Bootstrap, originalmente llamado Blueprint de Twitter, fue desarrollado por
+        Mark Otto y Jacob Thornton de Twitter,
+        como un marco de trabajo (framework) para fomentar la consistencia entre las herramientas internas.
+        Se renombró de Twitter Blueprint a Bootstrap y se lanzó como proyecto de código abierto el 19 de agosto de 2011.
+        Mark Otto, Jacob Thornton y un pequeño grupo de desarrolladores principales, así como una gran comunidad de
+        contribuyentes.Etiqueta padre: P elemento: A valor: TwitterEtiqueta padre: BODY elemento: P valor: Mark Otto
+        es un diseñador viviendo y trabajando en San Francisco, trabajó como freelance durante la secund
+        aria y la universidad, antes de mudarse a California para trabajar en la empresa de diseño ZURB, en 2007.Etiqueta padre: BODY elemento: P valor: Hasta la fecha Otto y Jacob han puesto más de 1000 horas en Bootstrap, sino es que más. Semanalmente trabajan de
+        tiempo com
+        pleto en sus respectivos empleos, pero suelen realizar esfuerzos durante algunas horas por la noche y más los
+        fines de semana, esto quiere decir que ellos no trabajan de tiempo completo en Bootstrap.Etiqueta padre: BODY elemento: H2 valor: VersionesEtiqueta padre: BODY elemento: P valor: Durante el transcurso de su historia bootstrap se ha ido actualizando para adaptarse a los nuevos requisitos
+        y tecnologias, que están siempre en constante cambio, y para mejorar su rendimiento y accesibilidad.
+        En la siguiente tabla se puede ver las versiones, su fecha de salida y el momento en el que se terminaron:
+    Etiqueta padre: BODY elemento: TABLE valor: 
+        
+            
+                Version
+                Fecha de salida
+                Principal Novedad
+            VersionFecha de salidaPrincipal Novedad
+        
+        
+            
+                Bootstrap 2
+                31/1/2012
+                Diseño receptivo,soporte para glyphicons
+            Bootstrap 231/1/2012Diseño receptivo,soporte para glyphicons
+            
+                Bootstrap 3
+                19/8/2013
+                Diseño plano y primer enfoque móvil
+            Bootstrap 319/8/2013Diseño plano y primer enfoque móvil
+            
+                Bootstrap 4
+                18/1/2018
+                Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegación
+            Bootstrap 418/1/2018Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegación
+            
+                Bootstrap 5
+                5/5/2021
+                Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                
+            Bootstrap 55/5/2021Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                
+
+        VersionBootstrap 2Bootstrap 3Bootstrap 4Bootstrap 5Fecha de salida31/1/201219/8/201318/1/20185/5/2021Principal NovedadDiseño receptivo,soporte para glyphiconsDiseño plano y primer enfoque móvilImportante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónNuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                VersionFecha de salidaPrincipal NovedadBootstrap 231/1/2012Diseño receptivo,soporte para glyphiconsBootstrap 319/8/2013Diseño plano y primer enfoque móvilBootstrap 418/1/2018Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónBootstrap 55/5/2021Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                
+    Etiqueta padre: TABLE elemento: THEAD valor: 
+            
+                Version
+                Fecha de salida
+                Principal Novedad
+            VersionFecha de salidaPrincipal Novedad
+        Etiqueta padre: THEAD elemento: TR valor: 
+                Version
+                Fecha de salida
+                Principal Novedad
+            VersionFecha de salidaPrincipal NovedadEtiqueta padre: TR elemento: TH valor: VersionEtiqueta padre: TR elemento: TH valor: Fecha de salidaEtiqueta padre: TR elemento: TH valor: Principal NovedadEtiqueta padre: TR elemento: TH valor: VersionFecha de salidaPrincipal NovedadEtiqueta padre: TABLE elemento: TBODY valor: 
+            
+                Bootstrap 2
+                31/1/2012
+                Diseño receptivo,soporte para glyphicons
+            Bootstrap 231/1/2012Diseño receptivo,soporte para glyphicons
+            
+                Bootstrap 3
+                19/8/2013
+                Diseño plano y primer enfoque móvil
+            Bootstrap 319/8/2013Diseño plano y primer enfoque móvil
+            
+                Bootstrap 4
+                18/1/2018
+                Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegación
+            Bootstrap 418/1/2018Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegación
+            
+                Bootstrap 5
+                5/5/2021
+                Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                
+            Bootstrap 55/5/2021Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                
+
+        VersionBootstrap 2Bootstrap 3Bootstrap 4Bootstrap 5Fecha de salida31/1/201219/8/201318/1/20185/5/2021Principal NovedadDiseño receptivo,soporte para glyphiconsDiseño plano y primer enfoque móvilImportante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónNuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                VersionFecha de salidaPrincipal NovedadBootstrap 231/1/2012Diseño receptivo,soporte para glyphiconsBootstrap 319/8/2013Diseño plano y primer enfoque móvilBootstrap 418/1/2018Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónBootstrap 55/5/2021Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                Etiqueta padre: TBODY elemento: TR valor: 
+                Bootstrap 2
+                31/1/2012
+                Diseño receptivo,soporte para glyphicons
+            Bootstrap 231/1/2012Diseño receptivo,soporte para glyphiconsEtiqueta padre: TR elemento: TH valor: Bootstrap 2Etiqueta padre: TR elemento: TD valor: 31/1/2012Etiqueta padre: TR elemento: TD valor: Diseño receptivo,soporte para glyphiconsEtiqueta padre: TR elemento: TD valor: Bootstrap 231/1/2012Diseño receptivo,soporte para glyphiconsEtiqueta padre: TBODY elemento: TR valor: 
+                Bootstrap 3
+                19/8/2013
+                Diseño plano y primer enfoque móvil
+            Bootstrap 319/8/2013Diseño plano y primer enfoque móvilEtiqueta padre: TR elemento: TH valor: Bootstrap 3Etiqueta padre: TR elemento: TD valor: 19/8/2013Etiqueta padre: TR elemento: TD valor: Diseño plano y primer enfoque móvilEtiqueta padre: TR elemento: TD valor: Bootstrap 319/8/2013Diseño plano y primer enfoque móvilEtiqueta padre: TBODY elemento: TR valor: 
+                Bootstrap 4
+                18/1/2018
+                Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegación
+            Bootstrap 418/1/2018Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónEtiqueta padre: TR elemento: TH valor: Bootstrap 4Etiqueta padre: TR elemento: TD valor: 18/1/2018Etiqueta padre: TR elemento: TD valor: Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónEtiqueta padre: TR elemento: TD valor: Bootstrap 418/1/2018Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónEtiqueta padre: TBODY elemento: TR valor: 
+                Bootstrap 5
+                5/5/2021
+                Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                
+            Bootstrap 55/5/2021Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                Etiqueta padre: TR elemento: TH valor: Bootstrap 5Etiqueta padre: TR elemento: TD valor: 5/5/2021Etiqueta padre: TR elemento: TD valor: Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                Etiqueta padre: TR elemento: TD valor: Bootstrap 55/5/2021Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                Etiqueta padre: TBODY elemento: TR valor: VersionBootstrap 2Bootstrap 3Bootstrap 4Bootstrap 5Fecha de salida31/1/201219/8/201318/1/20185/5/2021Principal NovedadDiseño receptivo,soporte para glyphiconsDiseño plano y primer enfoque móvilImportante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónNuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                VersionFecha de salidaPrincipal NovedadBootstrap 231/1/2012Diseño receptivo,soporte para glyphiconsBootstrap 319/8/2013Diseño plano y primer enfoque móvilBootstrap 418/1/2018Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónBootstrap 55/5/2021Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                Etiqueta padre: TR elemento: TD valor: VersionBootstrap 2Bootstrap 3Bootstrap 4Bootstrap 5Etiqueta padre: TR elemento: TD valor: Fecha de salida31/1/201219/8/201318/1/20185/5/2021Etiqueta padre: TR elemento: TD valor: Principal NovedadDiseño receptivo,soporte para glyphiconsDiseño plano y primer enfoque móvilImportante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónNuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                Etiqueta padre: TR elemento: TD valor: VersionFecha de salidaPrincipal NovedadBootstrap 231/1/2012Diseño receptivo,soporte para glyphiconsBootstrap 319/8/2013Diseño plano y primer enfoque móvilBootstrap 418/1/2018Importante reestructura del código, mejora en compatibilidad y
+                    personalización de la navegaciónBootstrap 55/5/2021Nuevo menú de componentes,API mejorada, soporte a escrituras RTL
+                Etiqueta padre: BODY elemento: H2 valor: H2 generado antes de un h3Etiqueta padre: BODY elemento: H3 valor: UNIOVIEtiqueta padre: BODY elemento: FORM valor: 
+        
+        
+        
+        
+        
+        
+        
+        
+
+    Etiqueta padre: FORM elemento: INPUT valor: Etiqueta padre: FORM elemento: INPUT valor: Etiqueta padre: FORM elemento: INPUT valor: Etiqueta padre: FORM elemento: INPUT valor: Etiqueta padre: FORM elemento: INPUT valor: Etiqueta padre: FORM elemento: INPUT valor: Etiqueta padre: FORM elemento: INPUT valor: Etiqueta padre: FORM elemento: INPUT valor: </p><p>Etiqueta padre: SECTION elemento: H2 valor: Arbol dom</p></section></body></html>
